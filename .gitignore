@@ -1,0 +1,33 @@
+# Gleam build artifacts
+/build/
+*.beam
+*.ez
+
+# Erlang build artifacts
+ebin/
+deps/
+_build/
+.rebar3/
+rebar3.crashdump
+erl_crash.dump
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Coverage reports
+cover/

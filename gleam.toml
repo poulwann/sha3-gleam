@@ -1,0 +1,10 @@
+name = "sha3"
+version = "1.0.0"
+description = "SHA-3 cryptographic hash functions for Gleam from Erlang OTP sha3 library"
+
+[dependencies]
+gleam_stdlib = ">= 0.34.0 and < 2.0.0"
+simplifile = ">= 1.0.0 and < 2.0.0"
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
