@@ -78,8 +78,6 @@ pub fn hash_string(data: String, variant: Sha3Variant) -> Result(BitArray, Strin
 // Convert hash to lowercase hex string
 pub fn to_hex(hash: BitArray) -> String
 
-// Convenience function for SHA3-256 with binary data
-pub fn sha3_256(data: BitArray) -> Result(BitArray, String)
 ```
 
 ## Requirements
