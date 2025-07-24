@@ -8,7 +8,7 @@ Add to your `gleam.toml`:
 
 ```toml
 [dependencies]
-sha3 = { git = "https://github.com/poulwann/gleam-sha3.git" }
+sha3 = { git = "https://github.com/poulwann/sha3-gleam.git", ref = "main" }
 ```
 
 ## Usage
